@@ -8,10 +8,6 @@ try {
   config = null;
 }
 
-console.log("token ===============");
-console.log(process.env.TOKEN);
-console.log("api_key =============")
-console.log(process.env.YOUTUBE_API_KEY);
 
 
 exports.TOKEN =  process.env.TOKEN;
